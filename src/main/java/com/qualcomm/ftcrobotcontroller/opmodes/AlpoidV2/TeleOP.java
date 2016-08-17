@@ -26,7 +26,7 @@ public class TeleOP extends OpMode {
         speed(0f);
     }
 
-    public void speed(float power){ }
+    public void speed(float power){ } // set speed for motors
 
     public void turnLeft() { } // more for auto
 
