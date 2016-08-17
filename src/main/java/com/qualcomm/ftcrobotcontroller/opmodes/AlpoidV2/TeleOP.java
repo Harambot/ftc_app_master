@@ -8,16 +8,12 @@ public class TeleOP extends OpMode {
     DcMotor f1;
     Servo ss1;
      */
-
     @Override
     public void init() {
-
         setupHardwareMap(); // add controls
         log(); // debuger
         resetEncoders(); // resets encoders
-        //update 3
         setupController();
-
     }
 
     @Override
@@ -30,7 +26,6 @@ public class TeleOP extends OpMode {
     public void stop(){
         speed(0f);
     }
-
 
     public void speed(float power){ }
 
@@ -47,6 +42,4 @@ public class TeleOP extends OpMode {
     public void setupHardwareMap() {}
 
     public void setupRobot(){}
-
-
 }
