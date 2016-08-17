@@ -3,7 +3,6 @@ package com.qualcomm.ftcrobotcontroller.opmodes.AlpoidV2;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 
 public class TeleOP extends OpMode {
-
     /*
     DcMotor f1;
     Servo ss1;
