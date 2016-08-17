@@ -22,7 +22,8 @@ public class TeleOP extends OpMode {
 
     @Override
     public void loop() {
-
+        log(); // updates debuger
+        setupController(); // controls robots
     }
 
     @Override
