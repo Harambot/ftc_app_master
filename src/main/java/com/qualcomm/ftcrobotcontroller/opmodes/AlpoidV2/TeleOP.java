@@ -29,17 +29,17 @@ public class TeleOP extends OpMode {
 
     public void speed(float power){ }
 
-    public void turnLeft() {} // more for auto
+    public void turnLeft() { } // more for auto
 
-    public void turnRight() {} // more for auto
+    public void turnRight() { } // more for auto
 
-    public void log() {}
+    public void log() { }
 
-    public void resetEncoders() {}
+    public void resetEncoders() { }
 
-    public void setupController() {}
+    public void setupController() { }
 
-    public void setupHardwareMap() {}
-
-    public void setupRobot(){}
+    public void setupHardwareMap() { }
+    
+    public void setupRobot(){ }
 }
