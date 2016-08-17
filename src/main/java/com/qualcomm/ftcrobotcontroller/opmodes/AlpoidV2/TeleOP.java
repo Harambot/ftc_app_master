@@ -34,9 +34,9 @@ public class TeleOP extends OpMode {
 
     public void speed(float power){ }
 
-    public void turnLeft() {}
+    public void turnLeft() {} // more for auto
 
-    public void turnRight() {}
+    public void turnRight() {} // more for auto
 
     public void log() {}
 
