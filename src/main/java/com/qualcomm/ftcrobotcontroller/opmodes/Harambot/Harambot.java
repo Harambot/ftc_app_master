@@ -13,7 +13,7 @@ public class Harambot extends OpMode {
     Servo ss1;
      */
 
-    Date date = new Date();
+    private static Date robotTime = new Date();
 
     @Override
     public void init() {
@@ -40,7 +40,6 @@ public class Harambot extends OpMode {
     public void speed(float power){ } // set speed for motors
 
     public void log() {
-
         /*
         what we want to log
         motor positions
@@ -60,6 +59,6 @@ public class Harambot extends OpMode {
     public void setupHardwareMap() { }
 
     public long getRobotTime(){
-        return date.getTime();
+        return robotTime.getTime();
     }
 }
