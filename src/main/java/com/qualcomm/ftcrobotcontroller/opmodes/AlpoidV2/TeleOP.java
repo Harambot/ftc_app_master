@@ -2,11 +2,16 @@ package com.qualcomm.ftcrobotcontroller.opmodes.AlpoidV2;
 
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 
+import java.util.Date;
+
 public class TeleOP extends OpMode {
     /*
     DcMotor f1;
     Servo ss1;
      */
+
+    Date date = new Date();
+
     @Override
     public void init() {
         setupHardwareMap(); // add controls
@@ -23,22 +28,24 @@ public class TeleOP extends OpMode {
 
     @Override
     public void stop(){
-        speed(0f);
+        speed(0f); // make sure the robot is stopped moving
+        /*
+        TODO make sure robot returns to default state
+         */
     }
 
     public void speed(float power){ } // set speed for motors
-
-    public void turnLeft() { } // more for auto
-
-    public void turnRight() { } // more for auto
 
     public void log() { }
 
     public void resetEncoders() { }
 
-    public void setupController() { }
+    public void setupController() { } // this is used to control motors
 
     public void setupHardwareMap() { }
-    
-    public void setupRobot(){ }
+
+    public long getRobotTime(){
+        return date.getTime();
+    }
+
 }
