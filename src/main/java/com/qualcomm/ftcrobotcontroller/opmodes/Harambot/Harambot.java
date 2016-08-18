@@ -1,10 +1,13 @@
-package com.qualcomm.ftcrobotcontroller.opmodes.AlpoidV2;
+package com.qualcomm.ftcrobotcontroller.opmodes.Harambot;
 
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 
 import java.util.Date;
 
-public class TeleOP extends OpMode {
+/**
+ * Created by Admin on 8/18/2016.
+ */
+public class Harambot extends OpMode {
     /*
     DcMotor f1;
     Servo ss1;
@@ -47,5 +50,4 @@ public class TeleOP extends OpMode {
     public long getRobotTime(){
         return date.getTime();
     }
-
 }
