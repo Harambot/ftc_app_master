@@ -39,7 +39,19 @@ public class Harambot extends OpMode {
 
     public void speed(float power){ } // set speed for motors
 
-    public void log() { }
+    public void log() {
+
+        /*
+        what we want to log
+        motor positions
+        time running
+        whats plugged in to what port/names
+        how fast things are running
+        servo positions
+        motor speed
+         */
+
+    }
 
     public void resetEncoders() { }
 
