@@ -19,7 +19,7 @@ public class Harambot extends OpMode {
     public void init() {
         setupHardwareMap(); // add controls
         log(); // debuger
-        resetEncoders(); // resets encoders
+        resetEncoders(); // resets encoderss
         setupController();
     }
 
